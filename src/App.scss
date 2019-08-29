@@ -1,0 +1,45 @@
+/*Error*/
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+/*Dashboard*/
+.user_info{
+    background: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    .user_name{
+        text-transform: capitalize;
+    }
+} 
+
+
+/* Post */
+.post{
+    .post-header{
+        display:flex;
+        justify-content: space-between;
+        .post-actions{
+            text-align: right;
+            min-width: 50px;
+            cursor: pointer;
+        }        
+    }
+    .author_name{
+        text-transform: capitalize;
+    }
+    .post-status{
+        text-transform: capitalize;
+    }
+}
+
+/*Nav*/
+.navbar{
+    .logout {
+        color: #fff;
+    }
+}
