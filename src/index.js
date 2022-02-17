@@ -5,8 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Router} from "react-router-dom";
 import history from './helper/history';
-console.log('%cCreated By Rahul Ppatidar https://github.com/rahulppatidar',
-    `color: white; background-color: green; padding: 2px 5px; border-radius: 2px`);
+
 ReactDOM.render(
 <Router history={history}>
     <App />

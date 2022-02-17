@@ -10,7 +10,6 @@ const Login = props =>{
     const [usernameError,setUsernameError] = useState(false);
     const [password,setPassword] = useState('');
     const [passwordError,setPasswordError] = useState(false);
-
     const [errorMsg,setErrorMsg] = useState('');
 
     const handleLoginSubmit=e=>{
